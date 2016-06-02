@@ -1,24 +1,19 @@
 #include <iostream>
+#include <cmath>
+#include <sstream>
+#include <string>
+#include "MWMath.h"
 #pragma once
+
+
 
 class Entity
 {
 public:
 	unsigned short UniqueID;
 	unsigned short EntityTypeID;
-	float PosX;
-	float PosY;
-	float Forward_NormalX;
-	float Forward_NormalY;
-	char padding[12];
-
-	void CanSee(const Entity &e)
-	{
-
-	}
-
-	void IsOverlapping(const Entity &e)
-	{
-
-	}
+	float CollisionRadius = 0;
+	float FOV;
+	Vec2 Pos;
+	Vec2 Fwd;
 };

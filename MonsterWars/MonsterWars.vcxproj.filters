@@ -23,5 +23,8 @@
     <ClInclude Include="Entity .h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MWMath.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
